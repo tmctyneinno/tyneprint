@@ -8,7 +8,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductFinishingController;
 
 Route::prefix('admin')->group(function () {
- 
+  
     // 🔐 Authentication routes
     Route::get('/login', [AdminLoginController::class, 'showLogin'])->name('admin.login');
     Route::get('/login', [AdminLoginController::class, 'showLogin'])->name('admin-login');

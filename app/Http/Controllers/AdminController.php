@@ -247,4 +247,6 @@ class AdminController extends Controller
         \Session::flash('msg','Notification clear');
     }
 
+    
+
 }

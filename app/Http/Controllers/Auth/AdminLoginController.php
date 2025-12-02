@@ -38,4 +38,15 @@ class AdminLoginController extends Controller
     {
         $this->middleware('guest:admin')->except('logout');
     }
+
+    public function logout(Request $request)
+    {
+        Auth::guard('admin')->logout();
+        
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect()->route('admin.login')
+            ->with('success', 'You have been logged out successfully.');
+    }
 }
