@@ -18,10 +18,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Symfony\Component\HttpFoundation\Session\Session;
 
-
+ 
 class AdminController extends Controller
 {
-      public function sendMail($data){
+    public function sendMail($data){
         Mail::to($data['email'], 'orders@tyneprints.com')->send(new DispatchedMail($data));
     }
      
@@ -198,7 +198,7 @@ class AdminController extends Controller
 
     }
 
-    public function adminProfile(){
+    public function adminProfile(){ 
         $admin = Admin::where('id', auth('admin')->user()->id)->first();
         return view('manage.profile', compact('admin'))
         ->with('bheading', 'Admin Profile')

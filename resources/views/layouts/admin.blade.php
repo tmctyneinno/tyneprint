@@ -203,10 +203,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{route('logout') }}" onclick="event.preventDefault() 
+                        <a href="{{route('admin.logout') }}" onclick="event.preventDefault() 
                                         document.getElementById('logout-form').submit()" data-placement="right" title="Logout">
                             <i data-feather="log-out"></i>
-                        </a>
+                        </a> 
                          <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form> 
