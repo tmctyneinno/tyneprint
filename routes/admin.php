@@ -15,7 +15,10 @@ Route::prefix('admin')->group(function () {
     
 
     Route::post('/manage/user/login', [AdminLoginController::class, 'login'])->name('admin.login.submit');
- 
+    
+    // 🔓 Logout route (outside auth middleware)
+    Route::post('/logout', [AdminLoginController::class, 'logout'])->name('admin.logout');
+
     // 🏠 Admin Dashboard (Protected)
     Route::middleware('auth:admin')->group(function () {
 
