@@ -5,7 +5,7 @@
 		<section class="home-slidershow">
 			<div class="slide-show">
 				<div class="vt-slideshow">
-					<ul>
+					<ul> 
 						<li class="slide1" data-transition="random" ><img src="{{asset('images/sliderss.jpg')}}"  alt="" />
 							<div class="tp-caption lfr" data-x="left"  data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300"><span class="style1"><span class="textcolor"> <p style="font-family: 'DM Serif Display',serif; text-transform: capitalize; font-weight:bold"> Get Quality Prints </p></span></div> 
 						 

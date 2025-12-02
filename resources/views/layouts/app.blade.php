@@ -12,10 +12,10 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://tyneprints.com/"> 
 	<meta property="og:description" content="Design &amp; print Business Cards, flyers, mugs and other print products online and we will deliver your doorstep. Get instant quotes.">
-	<link rel="icon" href="{{asset('/images/fav.png')}}">
-	<meta property="og:image" content="{{asset('/images/fav.png')}}">
+	<link rel="icon" href="{{asset('images/fav.png')}}">
+	<meta property="og:image" content="{{asset('images/fav.png')}}">
 	<!--Add css lib-->  
-	<link rel="stylesheet" type="text/css" href="{{asset('/frontend/css/style-main.css')}}">  
+	<link rel="stylesheet" type="text/css" href="{{asset('frontend/css/style-main.css')}}">  
   	<link href='http://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
   	<link href='https://fonts.googleapis.com/css?family=Arimo:500,300,700,400' rel='stylesheet' type='text/css'>
   	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:500,300,700,400' rel='stylesheet' type='text/css'>
@@ -131,7 +131,7 @@
 					<div class="col-lg-3 col-md-2 col-sm-4 col-xs-5 w-logo">
 						<div class="logo hd-pd ">
 							<a href="{{route('index')}}">
-								<img src="{{asset('/frontend/images/logo.png')}}"  width="120px" alt="">
+								<img src="{{asset('frontend/images/logo.png')}}"  width="120px" alt="">
 							</a>
 						</div>	
 					</div>
