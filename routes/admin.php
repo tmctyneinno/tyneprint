@@ -15,7 +15,7 @@ Route::prefix('admin')->group(function () {
     
 
     Route::post('/manage/user/login', [AdminLoginController::class, 'login'])->name('admin.login.submit');
-
+ 
     // 🏠 Admin Dashboard (Protected)
     Route::middleware('auth:admin')->group(function () {
 
