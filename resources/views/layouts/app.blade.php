@@ -223,13 +223,14 @@
 							<ul class="info">
 								<li>
 									<i class="fa fa-home"></i>
-									<span>UK office: 24 Holborn Viaduct, London, England, EC1A 2BN, United Kingdom</span><br>
-								<i class="fa fa-home"></i>	<span>NG office: 2nd Floor, 1 Adeola Adeoye Street, Off Olowu Street or Toyin Street,
-Ikeja, Lagos Nigeria</span>
+									<span>UK office: 85, Great Portland Street First Floor W1W 7LT, London, United Kingdom</span><br>
+								<i class="fa fa-home"></i>
+								<span>NG office: 2nd Floor, 1 Adeola Adeoye Street, Off Olowu Street or Toyin Street,
+									Ikeja, Lagos Nigeria</span>
 								</li>
 								<li>
 									<i class="fa fa-phone"></i>
-									<span>+23417001770 ,+2349153414314</span>
+									<span>+353877123968, +442078560149</span>
 								</li>
 								<li>
 									<i class="fa fa-envelope-o"></i>
