@@ -11,7 +11,7 @@ Route::prefix('admin')->group(function () {
   
     // 🔐 Authentication routes
     Route::get('/login', [AdminLoginController::class, 'showLogin'])->name('admin.login');
-    Route::get('/login', [AdminLoginController::class, 'showLogin'])->name('admin-login');
+    Route::get('admin/login', [AdminLoginController::class, 'showLogin'])->name('admin-login');
     
 
     Route::post('/manage/user/login', [AdminLoginController::class, 'login'])->name('admin.login.submit');
