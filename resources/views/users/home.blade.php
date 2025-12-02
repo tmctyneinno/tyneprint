@@ -11,9 +11,9 @@
                     <img src="{{asset('images/sliderss.jpg')}}" alt="" class="img-fluid w-100" />
                     
                     <!-- Bootstrap Grid Container -->
-                    <div class="container-fluid h-100 position-absolute top-0 start-0">
+                    <div class="container h-100 position-absolute top-0 start-0">
                         <div class="row h-100 align-items-center">
-                            <div class="col-1">
+                            <div class="col-10">
                                 <!-- Main Heading -->
                                 <div class="tp-caption lfr" data-x="left" data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300">
                                     <span class="style1">
