@@ -224,9 +224,12 @@
 								<li>
 									<i class="fa fa-home"></i>
 									<span>UK office: 85, Great Portland Street First Floor W1W 7LT, London, United Kingdom</span><br>
-								<i class="fa fa-home"></i>
-								<span>NG office: 2nd Floor, 1 Adeola Adeoye Street, Off Olowu Street or Toyin Street,
-									Ikeja, Lagos Nigeria</span>
+									<i class="fa fa-home"></i>
+									<span>21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</span>
+									<i class="fa fa-home"></i>
+									<span>NG office: 2nd Floor, 1 Adeola Adeoye Street, Off Olowu Street or Toyin Street,
+									Ikeja, Lagos Nigeria
+									</span>
 								</li>
 								<li>
 									<i class="fa fa-phone"></i>
