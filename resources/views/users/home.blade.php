@@ -3,21 +3,20 @@
 <main class="main index">
 		<!--Home slider : Begin-->
 		<section class="home-slidershow">
-			
 			<div class="slide-show">
 				<div class="vt-slideshow">
 					<ul>
-						<li class="slide1 container" data-transition="random" ><img src="{{asset('images/sliderss.jpg')}}"  alt="" />
-							<div class="tp-caption lfr"   data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300">
+						<li class="slide1" data-transition="random" ><img src="{{asset('images/sliderss.jpg')}}"  alt="" />
+							<div class=" tp-caption lfr" data-x="center"  data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300">
 								<span class="style1"><span class="textcolor"> 
 									<p style="font-family: 'DM Serif Display',serif; text-transform: capitalize; font-weight:bold"> Get Quality Prints </p>
 								</span>
 							</div> 
 						 
-							<div class="tp-caption lfb"  data-hoffset="-56" data-y="155" data-start="800" data-speed="2000" data-endspeed="300">	<span class="style3">
+							<div class=" tp-caption lfb" data-x="center"  data-hoffset="-56" data-y="155" data-start="800" data-speed="2000" data-endspeed="300">	<span class="style3">
 							<p style="font-size: 30px">Shipped to Your Doorstep</p>	</span>
 							</div>
-							<div class="   tp-caption lfr" data-hoffset="-56" data-y="275" data-start="1300" data-speed="2000" data-easing="easeInOutQuint" data-endspeed="300">
+							<div class="   tp-caption lfr" data-x="center" data-hoffset="-56" data-y="275" data-start="1300" data-speed="2000" data-easing="easeInOutQuint" data-endspeed="300">
 								<p style="font-size: 18px; font-weight:bold" class="visible-md visible-lg"> What do you want to print today?</p>
 								<div class=" d-md-block visible-md visible-lg" > 
 									<form method="get" action="{{route('search')}}" style=" background:#fff">
@@ -37,9 +36,8 @@
 					</ul> 
 				</div>
 			</div>
-	
 		</section>    
-
+		 
         <section class="or-service">
 			<div class="container">
 				<div class="row">
