@@ -26,7 +26,7 @@ use App\Http\Controllers\PostCommentController;
 */
 
 // Laravel built-in authentication routes
-Auth::routes();
+Auth::routes(); 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
