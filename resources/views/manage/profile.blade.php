@@ -5,11 +5,12 @@
             <div class="row">
                 <div class="col-md-12">
                 {{Form::open(['action' => 'AdminController@updateProfile', 'method'=>'post', 'enctype' => 'multipart/form-data'])}}
+               
                 <div class="card">
                         <div class="card-body">
                             <h6 class="card-title">Update Profile</h6>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6"> 
                                  
                                         <div class="form-group">
                                             <input type="text" name="name"  value="{{$admin->name}}" class="form-control @error('title') is-invalid @enderror" id="exampleInputEmail1"
@@ -48,8 +49,8 @@
                         <hr>
                         @if(Session::has('pass'))
 
-    <span class="alert {{Session::get('alert')}}" role="alert"> {{Session::get('pass')}}</span>
-@endif
+                            <span class="alert {{Session::get('alert')}}" role="alert"> {{Session::get('pass')}}</span>
+                        @endif
                             <div class="card-body">
                             <h6 class="card-title">Update Password</h6>
                             <div class="row">
@@ -80,11 +81,7 @@
                                            
                             </div> 
                         </div>
-
-                         
                     </div>
-
-
                          <div class="card">
                         <div class="card-body">
                         <div class="row">
