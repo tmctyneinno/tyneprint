@@ -2,37 +2,86 @@
 @section('content')
 <main class="main index">
 		<!--Home slider : Begin-->
-		<section class="home-slidershow">
-			<div class="slide-show">
-				<div class="vt-slideshow">
-					<ul> 
-						<li class="slide1" data-transition="random" ><img src="{{asset('images/sliderss.jpg')}}"  alt="" />
-							<div class="tp-caption lfr" data-x="left"  data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300"><span class="style1"><span class="textcolor"> <p style="font-family: 'DM Serif Display',serif; text-transform: capitalize; font-weight:bold"> Get Quality Prints </p></span></div> 
-						 
-							<div class="tp-caption lfb" data-x="left"  data-hoffset="-56" data-y="155" data-start="800" data-speed="2000" data-endspeed="300">	<span class="style3">
-							<p style="font-size: 30px">Shipped to Your Doorstep</p>	</span>
-							</div>
-							<div class="   tp-caption lfr" data-x="left" data-hoffset="-56" data-y="275" data-start="1300" data-speed="2000" data-easing="easeInOutQuint" data-endspeed="300">
-								<p style="font-size: 18px; font-weight:bold" class="visible-md visible-lg"> What do you want to print today?</p>
-								<div class=" d-md-block visible-md visible-lg" > 
-									<form method="get" action="{{route('search')}}" style=" background:#fff">
-										<input name="search" type="text" placeholder="Search for papers, mugs, designs" style="width:30em; font-size:15px; padding-left:10px; height:5em; border:none; color:#000" required>
-										<button type="submit" class="btn"  style="width:4em;background:#fff"><i style="font-size: 20px" class="fa fa-search" > </i> </button>
-									  </form>
-									</div>
-									<p style="font-size: 20px; padding-left:20px; font-weight:bolder" class="visible-sm visible-xs"> What do you want to print?</p>
-									<div class=" d-md-block visible-sm visible-xs" > 
-										<form method="get" action="{{route('search')}}" style=" background:#fff">
-											<input name="search" type="text" placeholder="Search for papers, mugs, designs" style="width:15em;  font-size:15px; padding-left:50px; height:4em; border:none; color:#000" required>
-											<button type="submit" class="btn"  style="width:4em;background:#fff"><i style="font-size: 20px" class="fa fa-search" > </i> </button>
-										  </form>
-										</div>
-							</div> 
-						</li>
-					</ul> 
-				</div>
-			</div>
-		</section>  
+		<!--Home slider : Begin-->
+<section class="home-slidershow">
+    <div class="slide-show">
+        <div class="vt-slideshow">
+            <ul> 
+                <li class="slide1" data-transition="random">
+                    <img src="{{asset('images/sliderss.jpg')}}" alt="" class="img-fluid w-100" />
+                    
+                    <!-- Bootstrap Grid Container -->
+                    <div class="container-fluid h-100 position-absolute top-0 start-0">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-1">
+                                <!-- Main Heading -->
+                                <div class="tp-caption lfr" data-x="left" data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300">
+                                    <span class="style1">
+                                        <span class="textcolor"> 
+                                            <p class="font-serif text-capitalize fw-bold mb-0"> 
+                                                Get Quality Prints 
+                                            </p>
+                                        </span>
+                                    </span>
+                                </div> 
+                             
+                                <!-- Subtitle -->
+                                <div class="tp-caption lfb" data-x="left" data-hoffset="-56" data-y="155" data-start="800" data-speed="2000" data-endspeed="300">
+                                    <span class="style3">
+                                        <p class="display-6 mb-0">Shipped to Your Doorstep</p>
+                                    </span>
+                                </div>
+                                
+                                <!-- Search Section -->
+                                <div class="tp-caption lfr" data-x="left" data-hoffset="-56" data-y="275" data-start="1300" data-speed="2000" data-easing="easeInOutQuint" data-endspeed="300">
+                                    <!-- Desktop Version -->
+                                    <div class="d-none d-md-block">
+                                        <p class="h5 fw-bold mb-3">What do you want to print today?</p>
+                                        <div> 
+                                            <form method="get" action="{{route('search')}}" class="bg-white rounded overflow-hidden shadow-sm">
+                                                <div class="input-group">
+                                                    <input name="search" 
+                                                           type="text" 
+                                                           placeholder="Search for papers, mugs, designs" 
+                                                           class="form-control border-0 py-3 px-4 fs-5"
+                                                           required>
+                                                    <button type="submit" class="btn bg-white border-0">
+                                                        <i class="fa fa-search fs-5"></i>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Mobile Version -->
+                                    <div class="d-md-none">
+                                        <p class="h5 fw-bold mb-3 ps-3">What do you want to print?</p>
+                                        <div> 
+                                            <form method="get" action="{{route('search')}}" class="bg-white rounded overflow-hidden shadow-sm">
+                                                <div class="input-group">
+                                                    <input name="search" 
+                                                           type="text" 
+                                                           placeholder="Search for papers, mugs, designs" 
+                                                           class="form-control border-0 py-3 px-4 fs-6"
+                                                           required>
+                                                    <button type="submit" class="btn bg-white border-0">
+                                                        <i class="fa fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+    </div>
+</section>
+
+
 		
 		
         <section class="or-service">
