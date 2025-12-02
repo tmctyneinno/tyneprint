@@ -17,7 +17,7 @@
 								<a href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout').submit()" title="Logout">Logout</a>
 
 								<form id="logout" action="{{route('logout')}}" method="post">
-								@csrf
+								@csrf 
 								</form>
 							</li>
 							
