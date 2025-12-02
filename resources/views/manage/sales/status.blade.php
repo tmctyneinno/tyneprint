@@ -6,7 +6,8 @@
             <div class="row">
                 <div class="col-md-12">
                 {{Form::open(['action' => ['AdminController@updateStatus', encrypt($order->order_No)], 'method'=>'post', 'enctype' => 'multipart/form-data'])}}
-              @csrf
+              <form action="{{ route('order.status.update', encrypt($order->order_No)) }}" method="POST" enctype="multipart/form-data">
+                @csrf
               <div class="card">
                         <div class="card-body">
                             <h6 class="card-title">Update Order Status</h6>
