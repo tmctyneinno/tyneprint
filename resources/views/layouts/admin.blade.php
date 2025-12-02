@@ -314,9 +314,9 @@
         </div>
 
         <!-- end::page-header -->
-    @yield('content')
+        @yield('content')
 
-     <footer>
+        <footer>
             <div class="container-fluid">
                 
                   
