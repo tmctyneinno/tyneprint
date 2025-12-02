@@ -25,7 +25,7 @@ Route::prefix('admin')->group(function () {
         Route::get('/', [AdminController::class, 'index'])->name('admin.index');
         Route::get('/index', [AdminController::class, 'index']); // optional alias
 
-        // 📦 Category & Product Management
+        // 📦 Category & Product Management. 
         Route::resource('/category', CategoryController::class);
         Route::resource('/product', ProductController::class);
 
