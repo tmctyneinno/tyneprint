@@ -6,25 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tyneprint | Admin</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('/images/fav2.png')}}"/>
- <link rel="stylesheet" href="{{asset('/backend/vendors/dataTable/dataTables.min.css')}}" type="text/css">
-  <link rel="icon" href="{{asset('/images/fav.png')}}">
+    <link rel="shortcut icon" href="{{asset('images/fav2.png')}}"/>
+ <link rel="stylesheet" href="{{asset('backend/vendors/dataTable/dataTables.min.css')}}" type="text/css">
+  <link rel="icon" href="{{asset('images/fav.png')}}">
     <!-- Plugin styles -->
-    <link rel="stylesheet" href="{{asset('/backend/vendors/bundle.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('backend/vendors/bundle.css')}}" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
 
     <!-- Datepicker -->
-    <link rel="stylesheet" href="{{asset('/backend/vendors/clockpicker/bootstrap-clockpicker.min.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('/backend/vendors/datepicker/daterangepicker.css')}}">
-    <link rel="stylesheet" href="{{asset('/backend/vendors/slick/slick.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('/backend/vendors/slick/slick-theme.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('backend/vendors/clockpicker/bootstrap-clockpicker.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('backend/vendors/datepicker/daterangepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/vendors/slick/slick.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('backend/vendors/slick/slick-theme.css')}}" type="text/css">
     
 
 
     <!-- Vmap -->
-    <link rel="stylesheet" href="{{asset('/backend/vendors/vmap/jqvmap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/vendors/vmap/jqvmap.min.css')}}">
 
-    <link rel="stylesheet" href="{{asset('/backend/css/app.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('backend/css/app.min.css')}}" type="text/css">
 </head>
 <body>
 
