@@ -24,7 +24,7 @@ class AdminController extends Controller
       public function sendMail($data){
         Mail::to($data['email'], 'orders@tyneprints.com')->send(new DispatchedMail($data));
     }
-    
+     
     
     public function index(){
 

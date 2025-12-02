@@ -13,7 +13,7 @@ class AdminLoginController extends Controller
 {   
     public function showLogin(){
         return view('auth.admin-login');
-    }
+    } 
 
     protected function guard(){
 
