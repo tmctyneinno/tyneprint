@@ -5,32 +5,80 @@
 		<section class="home-slidershow">
 			<div class="slide-show">
 				<div class="vt-slideshow">
-					<ul> 
-						<li class="slide1" data-transition="random" ><img src="{{asset('images/sliderss.jpg')}}"  alt="" />
-							<div class="tp-caption lfr" data-x="left"  data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300"><span class="style1"><span class="textcolor"> <p style="font-family: 'DM Serif Display',serif; text-transform: capitalize; font-weight:bold"> Get Quality Prints </p></span></div> 
-						 
-							<div class="tp-caption lfb" data-x="left"  data-hoffset="-56" data-y="155" data-start="800" data-speed="2000" data-endspeed="300">	<span class="style3">
-							<p style="font-size: 30px">Shipped to Your Doorstep</p>	</span>
-							</div>
-							<div class="   tp-caption lfr" data-x="left" data-hoffset="-56" data-y="275" data-start="1300" data-speed="2000" data-easing="easeInOutQuint" data-endspeed="300">
-								<p style="font-size: 18px; font-weight:bold" class="visible-md visible-lg"> What do you want to print today?</p>
-								<div class=" d-md-block visible-md visible-lg" > 
-									<form method="get" action="{{route('search')}}" style=" background:#fff">
-										<input name="search" type="text" placeholder="Search for papers, mugs, designs" style="width:30em; font-size:15px; padding-left:10px; height:5em; border:none; color:#000" required>
-										<button type="submit" class="btn"  style="width:4em;background:#fff"><i style="font-size: 20px" class="fa fa-search" > </i> </button>
-									  </form>
-									</div>
-									<p style="font-size: 20px; padding-left:20px; font-weight:bolder" class="visible-sm visible-xs"> What do you want to print?</p>
-									<div class=" d-md-block visible-sm visible-xs" > 
-										<form method="get" action="{{route('search')}}" style=" background:#fff">
-											<input name="search" type="text" placeholder="Search for papers, mugs, designs" style="width:15em;  font-size:15px; padding-left:50px; height:4em; border:none; color:#000" required>
-											<button type="submit" class="btn"  style="width:4em;background:#fff"><i style="font-size: 20px" class="fa fa-search" > </i> </button>
-										  </form>
-										</div>
-							</div> 
-						</li>
-					</ul> 
-				</div>
+    <ul>
+        <li class="slide1" data-transition="random">
+            <img src="{{asset('images/sliderss.jpg')}}" alt="" />
+            
+            <!-- Container for alignment -->
+            <div class="container-fluid h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <!-- Text Content Section -->
+                        <div class="tp-caption lfr" data-x="left" data-hoffset="-56" data-y="100" data-start="800" data-speed="2000" data-endspeed="300">
+                            <span class="style1">
+                                <span class="textcolor">
+                                    <p style="font-family: 'DM Serif Display',serif; text-transform: capitalize; font-weight:bold; margin: 0;">
+                                        Get Quality Prints
+                                    </p>
+                                </span>
+                            </span>
+                        </div>
+                        
+                        <!-- Subtitle Section -->
+                        <div class="tp-caption lfb" data-x="left" data-hoffset="-56" data-y="155" data-start="800" data-speed="2000" data-endspeed="300">
+                            <span class="style3">
+                                <p style="font-size: 30px; margin: 0;">
+                                    Shipped to Your Doorstep
+                                </p>
+                            </span>
+                        </div>
+                        
+                        <!-- Search Section -->
+                        <div class="tp-caption lfr" data-x="left" data-hoffset="-56" data-y="275" data-start="1300" data-speed="2000" data-easing="easeInOutQuint" data-endspeed="300">
+                            <div class="row align-items-center">
+                                <!-- Desktop Version -->
+                                <div class="col-12 col-lg-6 d-none d-md-block">
+                                    <p style="font-size: 18px; font-weight:bold; margin-bottom: 15px;">
+                                        What do you want to print today?
+                                    </p>
+                                    <form method="get" action="{{route('search')}}" style="background:#fff; border-radius: 5px; overflow: hidden; display: flex;">
+                                        <input name="search" type="text" placeholder="Search for papers, mugs, designs" style="flex: 1; font-size:15px; padding-left:20px; height:60px; border:none; color:#000" required>
+                                        <button type="submit" class="btn" style="width:60px; background:#fff; border-left: 1px solid #eee;">
+                                            <i style="font-size: 20px" class="fa fa-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                
+                                <!-- Mobile Version -->
+                                <div class="col-12 d-md-none">
+                                    <p style="font-size: 20px; font-weight:bolder; margin-bottom: 15px;">
+                                        What do you want to print?
+                                    </p>
+                                    <form method="get" action="{{route('search')}}" style="background:#fff; border-radius: 5px; overflow: hidden; display: flex;">
+                                        <input name="search" type="text" placeholder="Search for papers, mugs, designs" style="flex: 1; font-size:15px; padding-left:20px; height:50px; border:none; color:#000" required>
+                                        <button type="submit" class="btn" style="width:50px; background:#fff; border-left: 1px solid #eee;">
+                                            <i style="font-size: 20px" class="fa fa-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                
+                                <!-- Right side content (you can add more here) -->
+                                <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-end">
+                                    <!-- Optional right side content -->
+                                    <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; backdrop-filter: blur(5px);">
+                                        <p style="color: white; margin: 0; font-size: 16px;">
+                                            <i class="fa fa-truck me-2"></i>Free shipping on orders over $50
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
 			</div>
 		</section>  
 		
