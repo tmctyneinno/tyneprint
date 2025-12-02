@@ -218,7 +218,7 @@
 						<h2>About Us</h2>
 						<div class="footer-content">
 							<a href="{{route('index')}}" title="Cmsmart logo footer" class="logo-footer">
-								<img src="{{asset('/frontend/images/logo.png')}}"  width="100px" alt="logo footer">
+								<img src="{{asset('frontend/images/logo.png')}}"  width="100px" alt="logo footer">
 							</a>
 							<ul class="info">
 								<li>
@@ -393,15 +393,15 @@ Ikeja, Lagos Nigeria</span>
     </ul>
 	</nav> 
 	<!--Add js lib-->
-	<script type="text/javascript" src="{{asset('/frontend/js/jquery/jquery-1.11.3.min.js')}}"></script> 
-	<script type="text/javascript" src="{{asset('/frontend/js/bootstrap.min.js')}}"></script> 
-    <script type="text/javascript" src="{{asset('/frontend/js/owl.carousel.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('/frontend/js/Chart.js')}}"></script> 
-    <script type="text/javascript" src="{{asset('/frontend/js/doughnutit.js')}}"></script>
+	<script type="text/javascript" src="{{asset('frontend/js/jquery/jquery-1.11.3.min.js')}}"></script> 
+	<script type="text/javascript" src="{{asset('frontend/js/bootstrap.min.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('frontend/js/Chart.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('frontend/js/doughnutit.js')}}"></script>
   <!--   <script type="text/javascript" src="/frontend/js/jquery.subscribe-better.js"></script> -->
-    <script type="text/javascript" src="{{asset('/frontend/js/slideshow/jquery.themepunch.revolution.js')}}"></script>   
-	<script type="text/javascript" src="{{asset('/frontend/js/slideshow/jquery.themepunch.plugins.min.js')}}"></script>  
-    <script type="text/javascript" src="{{asset('/frontend/js/theme-home.js')}}"></script>  
+    <script type="text/javascript" src="{{asset('frontend/js/slideshow/jquery.themepunch.revolution.js')}}"></script>   
+	<script type="text/javascript" src="{{asset('frontend/js/slideshow/jquery.themepunch.plugins.min.js')}}"></script>  
+    <script type="text/javascript" src="{{asset('frontend/js/theme-home.js')}}"></script>  
 	  
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
