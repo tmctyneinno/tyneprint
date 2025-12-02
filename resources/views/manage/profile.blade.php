@@ -4,8 +4,8 @@
  <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                {{Form::open(['action' => 'AdminController@updateProfile', 'method'=>'post', 'enctype' => 'multipart/form-data'])}}
-               
+               <form action="{{ route('admin.profile.update') }}" method="POST" enctype="multipart/form-data">
+                @csrf
                 <div class="card">
                         <div class="card-body">
                             <h6 class="card-title">Update Profile</h6>
